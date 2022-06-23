@@ -1,0 +1,30 @@
+.mat-tab-group {
+  margin-top: 48px;
+}
+
+.tab {
+  padding: 10px;
+}
+
+.example-form {
+  margin-top: 50px;
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.btn-container {
+  width: 100%;
+}
+
+.btn {
+  float: right;
+}
+
+table {
+  width: 100%;
+}
