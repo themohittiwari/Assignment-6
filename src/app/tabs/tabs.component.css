@@ -28,3 +28,7 @@
 table {
   width: 100%;
 }
+
+.tab-content {
+  width: 700px;
+}

@@ -1,4 +1,7 @@
-<div class="tab-content">
+<div class="form-container">
+  <h2 *ngIf="editing" style="margin: 3rem 3rem" class="mat-display-2">
+    Edit Employee Details
+  </h2>
   <form
     class="example-form"
     (submit)="getEmpDets(name.value, designation.value, $event)"

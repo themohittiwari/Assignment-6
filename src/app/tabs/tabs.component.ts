@@ -34,5 +34,5 @@ export class TabsComponent implements OnInit {
     });
   }
 
-  displayedColumns: string[] = ['name', 'designation', 'id'];
+  displayedColumns: string[] = ['id', 'name', 'designation', 'modify'];
 }
