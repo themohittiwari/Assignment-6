@@ -1,0 +1,26 @@
+<div class="tab-content">
+  <form
+    class="example-form"
+    (submit)="getEmpDets(name.value, designation.value, $event)"
+  >
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Name</mat-label>
+      <input #name [(ngModel)]="empData.name" name="name" matInput />
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Designation</mat-label>
+      <input
+        #designation
+        [(ngModel)]="empData.designation"
+        name="designation"
+        matInput
+        placeholder="Ex. Developer, Designer"
+      />
+    </mat-form-field>
+    <div class="btn-container">
+      <div class="btn">
+        <button type="submit" mat-raised-button color="primary">Add</button>
+      </div>
+    </div>
+  </form>
+</div>
